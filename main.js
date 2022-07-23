@@ -3,7 +3,8 @@ const app = Vue.createApp({
         return {
             product: 'Socks',
             image: './assets/images/socks_blue.jpg',
-            onSale: true
+            onSale: true,
+            sizes: ['S', 'M', 'L', 'XL']
         }
     }
 })

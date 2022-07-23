@@ -19,6 +19,9 @@
           <div class="product-info">
             <h1>{{ product }}</h1>
             <p v-if="onSale">onSale</p>
+            <ul>
+              <li v-for="(size, index) in sizes" :key="index">{{size}}</li>
+            </ul>
           </div>
         </div>
       </div>
